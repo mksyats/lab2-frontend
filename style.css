@@ -1,0 +1,144 @@
+table {
+  width: 800px;
+}
+
+.defaultCell {
+  width: 100px;
+  height: 50px;
+}
+
+tr:nth-child(1) {
+  background-color: #108f8f;
+  color: #fff;
+}
+
+tr:nth-child(2) {
+  background-color: #f5f510;
+  color: #000;
+}
+
+tr:nth-child(1):hover {
+  background-color: #f5f510;
+  color: #000;
+}
+
+tr:nth-child(2):hover {
+  background-color: #108f8f;
+  color: #fff;
+}
+
+.greyCircleTr {
+  width: 100px;
+  height: 100px;
+  background: #a1a1a1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteCircleTr {
+  background: #ffffff;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.whiteCircleTr:nth-child(1) {
+  transform: rotate(0deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(2) {
+  transform: rotate(45deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(3) {
+  transform: rotate(90deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(4) {
+  transform: rotate(135deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(5) {
+  transform: rotate(180deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(6) {
+  transform: rotate(225deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(7) {
+  transform: rotate(270deg) translateY(-50px) scale(0.7);
+}
+.whiteCircleTr:nth-child(8) {
+  transform: rotate(315deg) translateY(-50px) scale(0.7);
+}
+
+.greyCirclePs {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #a1a1a1;
+  border-radius: 50%;
+}
+
+.whiteCirclePs {
+  position: absolute;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 35px;
+  left: 35px;
+}
+
+.whiteCirclePs:nth-child(1) { 
+  top: -10.5px;
+  left: 39.5px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(2) {
+  top: 5px;
+  left: 75px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(3) {
+  top: 39.5px;
+  left: 90px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(4) {
+  top: 75px;
+  left: 75px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(5) {
+  top: 90px;
+  left: 39.5px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(6) {
+  top: 75px;
+  left: 5px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(7) {
+  top: 39.5px;
+  left: -10.5px;
+  width: 21px;
+  height: 21px;
+}
+.whiteCirclePs:nth-child(8) {
+  top: 5px;
+  left: 5px;
+  width: 21px;
+  height: 21px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
